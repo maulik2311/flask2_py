@@ -109,3 +109,11 @@ make deploy
 ## Running in Azure App Service (Windows)
 
 Just don't, it's awful
+
+
+===========
+
+Set 
+1. makefile==> Container Registory
+2. Flask==1.1.2 ==>  Flask>=2.2.2
+3. python-demoapp/build/Dockerfile ==> LABEL TO GIR REPO
